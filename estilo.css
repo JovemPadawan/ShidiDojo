@@ -1,0 +1,128 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.colorblack {
+    background-color: #1E1E1E !important;
+}
+
+.colorwhite {
+    background-color: white !important;
+}
+
+.nolink{
+    text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Newsreader', serif;
+    font-weight: 600;
+}
+
+.navbar-brand, .recursos h2 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+}
+
+.jumbotron {
+    background: linear-gradient(45deg, #1E1E1E, #363636 );
+}
+
+/* HOMER */
+.banner {
+    padding: 150px 0 80px;
+}
+
+.display-1 {
+    font-size: 3.9rem;
+}
+
+@media (min-width: 576px) {
+    .display-1 {
+        font-size: 6rem;
+    }
+}
+
+.parallax {
+    padding: 150px 0;
+    background: rgba(0, 0, 0, .5) url(./imagens/img1.webp) center center fixed no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.btn {
+    border-radius: 100px;
+}
+
+.rodape {
+    background: black;
+}
+
+
+/* SERVIÇOS */
+
+.intro {
+    background: rgba(0, 0, 0, .7) url(./imagens/bg-wrapper.jpg) center center;
+    background-blend-mode: overlay;
+    background-size: cover;
+    padding: 150px 0 80px;
+}
+
+/* SOBRE NOS */
+
+.team {
+    border: 5px solid rgba(19, 19, 19, 5%);
+}
+
+.icon {
+    border-radius: 50%;
+    background: #303030;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}
+
+/* PORTFÓLIO */
+.obj-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-portfolio {
+    background: transparent;
+    border: none;
+    padding: 5px;
+}
+
+.card-portfolio:focus {
+    outline: none;
+}
+
+.box-image {
+    border-radius: 5px;
+    overflow: hidden;
+    height: 250px;
+}
+
+.modal-img {
+    height: 227px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* INDEXPESSOAL */
+.bg {
+    border-radius: 50%;
+    width: 370px;
+}
+
+.calltoaction {
+    background: url(./imagens/bg-section.jpg) center no-repeat;
+    background-color: rgb(58, 58, 58);
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
